@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--Code time: 3 hrs-->
+    <div id="app">
+        <div class="header">
+            <h1>Bienvenido al restaurante</h1>
+        </div>
+        <div class="menu-container d-none" id="menu-container">
+            <form action="#" id="menu-form">
+                <div class="menu" id="menu"></div>
+                <div class="button-container" >
+                    <button class="button" id="order-button">Crear orden</button>
+                </div>
+            </form>
+        </div>
+        <div class="checker-container d-none" id="checker-container">
+            <h2>Total a pagar: <span id="grand-total"></span></h2>
+            <div class="button-container">
+                <button class="button" id="payment-button">Pagar</button>
+            </div>
+        </div>
+        <div class="message-container d-none" id="message-container">
+            <h3>¡Gracias por tu compra!</h3>
+            <div class="button-container">
+                <button class="button" id="new-order-button">Pedir de nuevo</button>
+            </div>
+        </div>
+    </div>
+    <script src="menu.js"></script>
+    <script src="order.js"></script>
+</body>
+</html>
